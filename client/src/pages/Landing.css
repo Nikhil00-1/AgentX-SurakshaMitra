@@ -1,0 +1,147 @@
+/* ===== BASE ===== */
+.landing {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0b1120, #0f172a, #111827);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.nav-cta {
+  background: #22c55e;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: black !important;
+}
+
+/* ===== HERO ===== */
+.hero-section {
+  text-align: center;
+  padding: 120px 20px 100px;
+}
+
+.hero-section h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 span {
+  color: #22c55e;
+}
+
+.hero-section p {
+  max-width: 600px;
+  margin: auto;
+  color: #9ca3af;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #22c55e;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.secondary-btn {
+  border: 1px solid #22c55e;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #22c55e;
+}
+
+/* ===== FEATURES ===== */
+.features-section {
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.features-section h2 {
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  background: #263445;
+}
+
+/* ===== HOW SECTION ===== */
+.how-section {
+  padding: 80px;
+  text-align: center;
+}
+
+.steps {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #9ca3af;
+}
+
+/* ===== CTA ===== */
+.cta-section {
+  padding: 100px 20px;
+  text-align: center;
+  background: #111827;
+}
+
+.cta-section h2 {
+  margin-bottom: 30px;
+}
+
+/* ===== FOOTER ===== */
+.landing-footer {
+  padding: 20px;
+  text-align: center;
+  background: #0b1120;
+  color: #6b7280;
+}
